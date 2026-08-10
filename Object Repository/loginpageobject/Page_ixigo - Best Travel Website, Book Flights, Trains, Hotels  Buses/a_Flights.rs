@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Flights</name>
+   <tag></tag>
+   <elementGuidId>f5c16f95-8257-412c-b118-c86f32778676</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in/Sign up'])[2]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4c047486-cf8e-43cb-8249-b7cd4af6b620</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/flights</value>
+      <webElementGuid>3a517554-06b7-4a39-a945-750f8c938318</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-medium flex items-center gap-5 cursor-pointer</value>
+      <webElementGuid>c87732bc-56b3-4388-8719-917e5b71e239</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Flights</value>
+      <webElementGuid>0880be86-c5fd-4b6a-a10d-a9ad68d1d966</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;__className_dadd99 __variable_ef86ac text-primary&quot;]/main[@class=&quot;min-w-[1240px] overflow-x-scroll&quot;]/div[@class=&quot;max-w-[1240px] m-auto mainContainer&quot;]/div[@class=&quot;pt-30 mx-0 relative px-20 xl:px-0&quot;]/div[2]/div[@class=&quot;px-20 z-20 flex justify-between items-center relative&quot;]/ul[@class=&quot;flex justify-between text-base font-normal gap-20 px-0&quot;]/li[@class=&quot;relative pb-2 text-primary text-sm text-center font-medium lg:text-primary&quot;]/a[@class=&quot;font-medium flex items-center gap-5 cursor-pointer&quot;]</value>
+      <webElementGuid>6a76e2ab-2845-4a78-b08e-2c127e06c990</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in/Sign up'])[2]/following::a[1]</value>
+      <webElementGuid>91ead5f7-242a-4872-bda7-5fdc430fc661</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Flat 80% Off'])[1]/following::a[8]</value>
+      <webElementGuid>93620af9-2604-4227-aee0-c3f26bfe15f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Flat 80% Off'])[2]/preceding::a[1]</value>
+      <webElementGuid>ac5e9b40-dcac-4bbc-b0f4-2f70486d855d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book International and Domestic Flights'])[1]/preceding::a[4]</value>
+      <webElementGuid>589db10f-1785-4897-9084-e0a64e77de2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/flights')])[2]</value>
+      <webElementGuid>8f2f1f3b-c13c-4470-8c3d-a1c9e2665cae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/ul/li/a</value>
+      <webElementGuid>e6229873-1e9e-480a-9d8d-19cdfda9bd7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/flights' and (text() = 'Flights' or . = 'Flights')]</value>
+      <webElementGuid>0aea66cd-7e9c-4ccc-97ab-e9b838a8b1f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

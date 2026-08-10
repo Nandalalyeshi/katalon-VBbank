@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC6_Billpayment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>77d67a72-ba04-462a-9baf-d00838bd2724</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e3c4a3e1-cb23-4a9c-b0a5-8d879ca58ba4</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/vbregdata</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e3c4a3e1-cb23-4a9c-b0a5-8d879ca58ba4</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>billpayamount</value>
+      <variableId>05908665-2811-4754-b621-18d8e709e63b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>05908665-2811-4754-b621-18d8e709e63b</id>
+      <masked>false</masked>
+      <name>billpayamount</name>
+   </variable>
+</TestCaseEntity>

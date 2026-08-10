@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>abbr_31</name>
+   <tag></tag>
+   <elementGuidId>a2fb3f33-726c-4aa8-a4a2-0ebc4ac0fb18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::abbr[34]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>abbr</value>
+      <webElementGuid>6761e190-d38f-45ab-8795-e11e65b694e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>31 July 2026</value>
+      <webElementGuid>12a426d8-6305-42a5-8a48-1f0714f4f979</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>31</value>
+      <webElementGuid>33889910-9125-4a38-875a-80ccc606ffa2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;no-scrollbar __className_703ca4 bg-tertiary&quot;]/main[@class=&quot;min-w-[1240px] overflow-x-scroll bg-primary&quot;]/div[@class=&quot;mainContainer m-auto max-w-[1240px]&quot;]/div[@class=&quot;pt-30 mx-0 relative px-20 xl:px-0 undefined&quot;]/div[@class=&quot;border-none shadow-500 p-20 flex flex-col gap-10 rounded-20 bg-white undefined&quot;]/div[@class=&quot;absolute bg-white rounded-20 max-h-[520px] w-[720px] shadow-500 z-20 top-[175px] left-[600px]&quot;]/div[@class=&quot;relative overflow-y-hidden max-h-[520px] rounded-20&quot;]/div[@class=&quot;react-calendar react-calendar--doubleView desktop mt-50 px-20 xl:my-0 xl:px-20 xl:pt-10&quot;]/div[@class=&quot;react-calendar__viewContainer&quot;]/div[@class=&quot;react-calendar__month-view&quot;]/div[1]/div[1]/div[@class=&quot;react-calendar__month-view__days&quot;]/button[@class=&quot;react-calendar__tile react-calendar__month-view__days__day&quot;]/abbr[1]</value>
+      <webElementGuid>11867e6a-672e-4ff5-ad48-a118f1eb8b69</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::abbr[34]</value>
+      <webElementGuid>2b5ba4db-f60b-4011-b272-34925b2b5035</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::abbr[35]</value>
+      <webElementGuid>6aeb03e0-a7ac-4703-b98f-aa1d0f2b8f6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[2]/preceding::abbr[9]</value>
+      <webElementGuid>cb59470d-a93e-4d38-9691-16d6ce3fa37d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[2]/preceding::abbr[10]</value>
+      <webElementGuid>b5c27a53-112f-44e2-8919-e722f85afda6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='31']/parent::*</value>
+      <webElementGuid>0d57605e-769d-4047-bcfb-fc318de8d184</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[34]/abbr</value>
+      <webElementGuid>dbb4bc7e-297e-43b9-b0cb-8e4d0654c28d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//abbr[(text() = '31' or . = '31')]</value>
+      <webElementGuid>2edab05a-609d-4ed9-90b3-be1fbdab3166</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

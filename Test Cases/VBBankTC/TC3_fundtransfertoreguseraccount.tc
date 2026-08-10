@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3_fundtransfertoreguseraccount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8248f89e-de7d-438c-9b38-f1a59d3ba0d0</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>111271ef-36a6-4954-8947-61011d9ca390</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/vbregdata</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>111271ef-36a6-4954-8947-61011d9ca390</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>fullname</value>
+      <variableId>93af6ca2-a28a-4eb2-901f-680233a53026</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>93af6ca2-a28a-4eb2-901f-680233a53026</id>
+      <masked>false</masked>
+      <name>fullname</name>
+   </variable>
+</TestCaseEntity>

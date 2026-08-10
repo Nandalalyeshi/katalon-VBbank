@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_login_multipleuser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6981efa-4bde-42f3-96ef-fb8173211383</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>67e55e45-ec14-4185-a51e-2da3792bf330</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/vbregdata</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>67e55e45-ec14-4185-a51e-2da3792bf330</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>b8263101-920b-4a68-9328-91a6febe0b61</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>67e55e45-ec14-4185-a51e-2da3792bf330</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>273cf01e-d02d-4633-86aa-6df837991c47</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b8263101-920b-4a68-9328-91a6febe0b61</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>273cf01e-d02d-4633-86aa-6df837991c47</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
