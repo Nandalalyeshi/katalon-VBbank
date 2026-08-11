@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_addmultpleitem</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>253429be-2079-4c99-a1d4-8ebe3dbfb117</testCaseGuid>
+</TestCaseEntity>
