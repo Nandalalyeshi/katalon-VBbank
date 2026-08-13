@@ -20,45 +20,77 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'cnarios.urlopen.open'()
-
-//click on hard challege
-WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_challenge_hard'))
-
-WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_addtocart1'))
-
-//click on cart
-WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_cart'))
-
-//click +
-WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_plus'))
-
-//contnue shopping
-WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_continueshopping'))
-
-WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_addtocart2'))
-
-WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_cart'))
-
-WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_proceedtoaddress'))
-
-//Address
-WebUI.setText(findTestObject('Object Repository/cnarios/endtoendflow/txt_firstname'), 'Nandalal')
-
-WebUI.setText(findTestObject('Object Repository/cnarios/endtoendflow/txt_lastname'), 'Patil')
-
-//WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/txt_address'))
-
-WebUI.setText(findTestObject('Object Repository/cnarios/endtoendflow/txt_address'), 'abcd pune')
-
-//proceed to payment
-WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_proceedtopayment'))
+//CustomKeywords.'cnarios.urlopen.open'()
+//
+////click on hard challege
+//WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_challenge_hard'))
+//
+//WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_addtocart1'))
+//
+////click on cart
+//WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_cart'))
+//
+////click +
+//WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_plus'))
+//
+////contnue shopping
+//WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_continueshopping'))
+//
+//WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_addtocart2'))
+//
+//WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_cart'))
+//
+//WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_proceedtoaddress'))
+//
+////Address
+//WebUI.setText(findTestObject('Object Repository/cnarios/endtoendflow/txt_firstname'), 'Nandalal')
+//
+//WebUI.setText(findTestObject('Object Repository/cnarios/endtoendflow/txt_lastname'), 'Patil')
+//
+////WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/txt_address'))
+//
+//WebUI.setText(findTestObject('Object Repository/cnarios/endtoendflow/txt_address'), 'abcd pune')
+//
+////proceed to payment
+//WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_proceedtopayment'))
+////
+//
+//WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_Paynow'))
+//
+//KeywordUtil.logInfo("Order Placed Successfully!")
+//
+////Back to home
+//WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_backtohome'))//
 //
 
-WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_Paynow'))
+String path = 'Object Repository/cnarios/endtoendflow/'
 
-KeywordUtil.logInfo("Order Placed Successfully!")
+def clickObj = { name ->
+	WebUI.click(findTestObject(path + name))
+}
 
-//Back to home
-WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_backtohome'))//
+def typeObj = { name, value ->
+	WebUI.setText(findTestObject(path + name), value)
+}
 
+CustomKeywords.'cnarios.urlopen.open'()
+
+clickObj('btn_challenge_hard')
+clickObj('btn_addtocart1')
+clickObj('btn_cart')
+clickObj('btn_plus')
+clickObj('btn_continueshopping')
+clickObj('btn_addtocart2')
+clickObj('btn_cart')
+clickObj('btn_proceedtoaddress')
+
+typeObj('txt_firstname', 'Nandalal')
+typeObj('txt_lastname', 'Patil')
+typeObj('txt_address', 'abcd pune')
+
+clickObj('btn_proceedtopayment')
+clickObj('btn_Paynow')
+
+KeywordUtil.logInfo('Order Placed Successfully!')
+
+clickObj('btn_backtohome')

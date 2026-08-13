@@ -46,15 +46,19 @@ WebUI.click(findTestObject('Object Repository/cnarios/endtoendflow/btn_challenge
 //
 //}
 
+//
+//for (int i = 0; i<4; i++) {
+//
+//	def dynamicButton = findTestObject('Object Repository/cnarios/multipleadd/btn_addtocartupto5', [('index') : i])
+//	
+//	WebUI.waitForElementVisible(dynamicButton, 5)
+//	
+//	// Click the button natively
+//	WebUI.click(dynamicButton)
+//}
 
-for (int i = 0; i<4; i++) {
-
-	def dynamicButton = findTestObject('Object Repository/cnarios/multipleadd/btn_addtocartupto5', [('index') : i])
-	
-	WebUI.waitForElementVisible(dynamicButton, 5)
-	
-	// Click the button natively
-	WebUI.click(dynamicButton)
+(0..<4).each { i ->
+	WebUI.click(findTestObject('Object Repository/cnarios/multipleadd/btn_addtocartupto5', [('index') : i]))
 }
 
 //click on cart
