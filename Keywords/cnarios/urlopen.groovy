@@ -54,9 +54,9 @@ public class urlopen {
 		WebUI.openBrowser('')
 		WebUI.maximizeWindow()
 		WebUI.navigateToUrl('https://ishine.apmosys.com/#/login?returnUrl=%2Fhome')
-		WebUI.setText(findTestObject('Object Repository/ishine_obj/txt_username'), 'nandalal.yeshi@apmosys.com')
+		WebUI.setText(findTestObject('Object Repository/ishine_obj/txt_username'), GlobalVariable.UAT_ishinemail)
 		
-		WebUI.setEncryptedText(findTestObject('Object Repository/ishine_obj/txt_password'), 'nx8lW3ljSW+65wtTjzWR9Q==')
+		WebUI.setEncryptedText(findTestObject('Object Repository/ishine_obj/txt_password'), GlobalVariable.UAT_ishinepassword)
 			
 		WebUI.click(findTestObject('Object Repository/ishine_obj/btn_login'))
 	}
@@ -66,10 +66,10 @@ public class urlopen {
 		
 		WebUI.newTab('https://mail.apmosys.com/webmail/')
 		
-		WebUI.setText(findTestObject('Object Repository/ishine_obj/txt_email'), 'nandalal.yeshi@apmosys.com')
+		WebUI.setText(findTestObject('Object Repository/ishine_obj/txt_email'), GlobalVariable.UAT_ishinemail)
 		WebUI.click(findTestObject('Object Repository/ishine_obj/btn_next'))
 		
-		WebUI.setEncryptedText(findTestObject('Object Repository/ishine_obj/txt_emailpassword'), 'nx8lW3ljSW+65wtTjzWR9Q==')
+		WebUI.setEncryptedText(findTestObject('Object Repository/ishine_obj/txt_emailpassword'), GlobalVariable.UAT_ishinepassword)
 		WebUI.click(findTestObject('Object Repository/ishine_obj/btn_emailsingn'))
 		
 		WebUI.delay(5)	
@@ -81,7 +81,15 @@ public class urlopen {
 		
 		WebUI.switchToFrame(findTestObject('Object Repository/ishine_obj/iframe'), 5)
 		
+		//read otp message		
+		
 		String emailtext= WebUI.getText(findTestObject('Object Repository/ishine_obj/otpcontest'))
+		
+		//copy 6 digit otp
+		//  \d= any no from 0 to 9
+		//  {6} upto 6 digit or sequence of 6 no
+		//  =~ Groovy operator 
+		//  [0] first matching result
 		
 		String otpvalue = (emailtext=~/\d{6}/)[0]
 		
@@ -91,13 +99,9 @@ public class urlopen {
 		
 		WebUI.click(findTestObject('Object Repository/ishine_obj/btn_confirm'))
 		
-			
 		
 		
 	}
-	
-	
-	
-	
+		
 	
 }

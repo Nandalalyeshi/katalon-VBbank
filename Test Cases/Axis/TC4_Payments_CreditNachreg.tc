@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4_Payments_CreditNachreg</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>81467b89-7817-4d6b-820e-ae5af5f33617</testCaseGuid>
+</TestCaseEntity>

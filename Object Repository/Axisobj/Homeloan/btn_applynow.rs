@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_applynow</name>
+   <tag></tag>
+   <elementGuidId>d8692786-f7a5-44c5-96eb-ad6e59f7c340</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href=&quot;https://application.axis.bank.in/webforms/onlineform/home-loan/web/homeLoan.aspx?utm_cta=megamenu-loan-homeloan-applynow-banner&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

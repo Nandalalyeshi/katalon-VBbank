@@ -11,4 +11,18 @@
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'nandalal.yeshi@apmosys.com'</initValue>
+      <name>UAT_ishinemail</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'nx8lW3ljSW+65wtTjzWR9Q=='</initValue>
+      <name>UAT_ishinepassword</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

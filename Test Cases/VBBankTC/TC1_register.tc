@@ -8,7 +8,7 @@
    <testCaseGuid>da5bb0b0-e00c-407b-935b-3211c646c1c2</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>4c35aeff-61ef-4b81-ab8c-6100062908cd</id>
+      <id>c2a1b25f-f300-4fb3-8c03-a2690a828ef8</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -16,31 +16,31 @@
       <testDataId>Data Files/vbregdata</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>4c35aeff-61ef-4b81-ab8c-6100062908cd</testDataLinkId>
+      <testDataLinkId>c2a1b25f-f300-4fb3-8c03-a2690a828ef8</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>fullname</value>
       <variableId>a4fb06eb-39d3-4184-a1a5-4f4af43ffa59</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4c35aeff-61ef-4b81-ab8c-6100062908cd</testDataLinkId>
+      <testDataLinkId>c2a1b25f-f300-4fb3-8c03-a2690a828ef8</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>username</value>
       <variableId>f611f7c7-8b93-4bf7-9153-91d368c941dd</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4c35aeff-61ef-4b81-ab8c-6100062908cd</testDataLinkId>
+      <testDataLinkId>c2a1b25f-f300-4fb3-8c03-a2690a828ef8</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>email</value>
       <variableId>bc88358f-f11e-4c76-bcc0-5928ff100ee4</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4c35aeff-61ef-4b81-ab8c-6100062908cd</testDataLinkId>
+      <testDataLinkId>c2a1b25f-f300-4fb3-8c03-a2690a828ef8</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>password</value>
       <variableId>2b540d38-4f2b-4790-a28a-ac586b0b61b8</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>4c35aeff-61ef-4b81-ab8c-6100062908cd</testDataLinkId>
+      <testDataLinkId>c2a1b25f-f300-4fb3-8c03-a2690a828ef8</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>confirmpassword</value>
       <variableId>92767c19-6645-47dc-8ebb-54db491c6e8a</variableId>

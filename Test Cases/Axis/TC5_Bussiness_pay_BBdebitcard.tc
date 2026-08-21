@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC5_Bussiness_pay_BBdebitcard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aff2ee38-b3f0-4525-b905-ec765e8bb7d8</testCaseGuid>
+</TestCaseEntity>

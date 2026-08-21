@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_Lodge a Complaint</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f01f3038-8ec0-4878-9ca3-292b9ce4d6a0</testCaseGuid>
+</TestCaseEntity>

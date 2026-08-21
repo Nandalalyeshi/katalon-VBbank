@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3_ATMbanking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e7710a3-6b1e-4a4d-8509-74afbf61a1f7</testCaseGuid>
+</TestCaseEntity>
